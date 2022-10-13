@@ -5,6 +5,7 @@
   </div>
 </template>
 
+<!-- 최상위 컴포넌트 -->
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
