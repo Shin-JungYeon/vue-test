@@ -1,25 +1,21 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/user">User</router-link>
-    </div>
+    <Layout />
     <router-view/>
   </div>
 </template>
 
 <!-- 최상위 컴포넌트 -->
-<!--<script>-->
-<!--import HelloWorld from './components/HelloWorld.vue'-->
+<script>
+import Layout from '@/views/Layout.vue'
 
-<!--export default {-->
-<!--  name: 'App',-->
-<!--  components: {-->
-<!--    HelloWorld-->
-<!--  }-->
-<!--}-->
-<!--</script>-->
+export default {
+  name: 'App',
+  components: {
+    Layout
+  }
+}
+</script>
 
 <style>
 #app {

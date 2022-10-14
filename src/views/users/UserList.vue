@@ -33,10 +33,10 @@ export default {
     }
   },
   mounted() {
-    this.listUser();
+    this.getUserList();
   },
   methods: {
-    listUser() {
+    getUserList() {
       listUser()
           .then((response) => {
             console.log(response.data());
