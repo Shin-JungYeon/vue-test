@@ -1,10 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import axios from "axios";
 import router from './router'
 
 Vue.config.productionTip = false  // Vue 앱이 처음 실행될 때 나오는 경고문(배포에 대한 팁) 출력 여부
-Vue.prototype.$axios = axios;
 
 new Vue({
   router,
